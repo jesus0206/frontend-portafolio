@@ -8,9 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@octokit/graphql": "^4.6.4",
+    "apollo-boost": "^0.4.9",
     "core-js": "^3.6.5",
+    "graphql": "^15.5.0",
     "jspdf": "^2.3.1",
+    "villus": "^1.0.0-rc.17",
     "vue": "^2.6.11",
+    "vue-apollo": "^3.0.7",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^9.1.2",
     "vue-router": "^3.2.0",
@@ -27,7 +32,7 @@
     "@vue/cli-service": "~4.5.0",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^7.0.0",
-    "eslint": "^6.7.2",
+    "eslint": "^6.8.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.12.0",
